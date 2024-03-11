@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useForm, ValidationError } from '@formspree/react';
-import starIcon from "../../images/star-icon.png";
 import contact from "../../images/contact.png";
 
 const ContactForm = () => {
@@ -34,11 +33,11 @@ return (
 
 return (
 <>
+
   <section className="contact-area pb-100">
     <div className="container">
       <div className="section-title">
         <span className="sub-title">
-          <img src={starIcon} alt="contact" />
           Get in Touch
         </span>
         <h2>Ready to Get Started?</h2>

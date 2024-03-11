@@ -9,10 +9,6 @@
     margin-bottom: 2rem;
   }
   
-  .star-icon {
-    width: 50px; /* Adjust size as needed */
-  }
-  
   .mission-statement h2 {
     margin-bottom: 1rem;
   }
@@ -20,8 +16,8 @@
   .mission-links {
     margin-top: 2rem;
     display: flex;
-    justify-content: center;
-    gap: 2rem; /* Adjust the space between links */
+    justify-content: justify;
+     /* Adjust the space between links */
   }
   
   .mission-links a {

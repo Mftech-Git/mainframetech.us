@@ -86,11 +86,8 @@ const Footer = () => {
                   <Link to="/case-studies">Case Studies</Link>
                </li>*/}
                 <li>
-                  <Link to="/blog">Our Blog</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
-                </li>
+                  <Link to="/blog/Blog/">Our Blog</Link>
+                </li>                
               </ul>
             </div>
           </div>
@@ -100,20 +97,14 @@ const Footer = () => {
               <h3>Resources</h3>
 
               <ul className="footer-links-list">
-                <li>
-                  <Link to="/team">Our Scientists</Link>
+              <li>
+                  <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link to="/services">Our Services</Link>
+                  <Link to="/services">Documentation Hub</Link>
                 </li>
                 <li>
-                  <Link to="/testimonials">Testimonials</Link>
-                </li>
-                <li>
-                  <Link to="/services">SaaS Solutions</Link>
-                </li>
-                <li>
-                  <Link to="/case-studies">Case Studies</Link>
+                  <Link to="/FAQ">Frequently Asked Questions</Link>
                 </li>
               </ul>
             </div>
@@ -174,3 +165,4 @@ const Footer = () => {
 }
 
 export default Footer
+

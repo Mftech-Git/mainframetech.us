@@ -5,13 +5,12 @@ import Navbar from "../components/_App/Navbar"
 import PageBanner from "../components/Common/PageBanner"
 import CompletedProjectsContent from "../components/Projects/Completed-Projects"
 import Footer from "../components/_App/Footer"
-import LoadingAnimation from "../components/SpecialEffects/LoadingAnimation"
 
 const CompletedProjectsPage = () => {
   return (
 
     <Layout>
-      < LoadingAnimation />
+
       <Navbar />
 
       <PageBanner

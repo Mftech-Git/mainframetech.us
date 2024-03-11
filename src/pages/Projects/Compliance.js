@@ -3,27 +3,27 @@ import Layout from "../../components/_App/layout"
 import Seo from "../../components/_App/seo"
 import Navbar from "../../components/_App/Navbar"
 import PageBanner from "../../components/Common/PageBanner"
-import LinkedInRecommendation from "../../components/AboutUs/LinkedInContent"
+import ComplianceContent from "../../components/Projects/Compliance-Content"
 import Footer from "../../components/_App/Footer"
 
 
-const LinkedInPage = () => {
+const CompliancePage = () => {
   return (
     <Layout>
 
       <Navbar />
 
       <PageBanner
-        pageTitle="Testimonials"
+        pageTitle="Compliance Keystone"
         homePageText="Home"
         homePageUrl="/"
-        activePageText="Testimonials"
+        activePageText="Completed Projects > Compliance Keystone"
       />
 
-      <LinkedInRecommendation />
-
+      <ComplianceContent />
 
       <Footer />
+
     </Layout>
   )
 }
@@ -33,6 +33,6 @@ const LinkedInPage = () => {
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Testimonials" />
+export const Head = () => <Seo title=" HIPPA Compliant Fax Migration" />
 
-export default LinkedInPage
+export default CompliancePage

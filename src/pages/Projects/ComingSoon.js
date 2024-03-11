@@ -13,10 +13,10 @@ const ProjectsCSPage = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Projects Coming Soon"
+        pageTitle="Coming Soon"
         homePageText="Home"
         homePageUrl="/"
-        activePageText="Projects Coming Soon"
+        activePageText="Coming Soon"
       />
 
       <ComingSoonContent />

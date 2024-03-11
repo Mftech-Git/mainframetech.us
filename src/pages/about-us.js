@@ -5,13 +5,13 @@ import Navbar from "../components/_App/Navbar"
 import PageBanner from "../components/Common/PageBanner"
 import AboutUsContent from "../components/AboutUs/AboutUsContent"
 import Footer from "../components/_App/Footer"
-import LoadingAnimation from "../components/SpecialEffects/LoadingAnimation"
+
 
 
 const AboutUsPage = () => {
   return (
     <Layout>
-      <LoadingAnimation />
+    
       <Navbar />
 
       <PageBanner

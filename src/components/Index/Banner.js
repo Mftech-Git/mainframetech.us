@@ -40,7 +40,7 @@ const Banner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="300"
                 >
-                  <Link to="/contact" className="default-btn">
+                  <Link to="/Resources/contact" className="default-btn">
                     <i className="flaticon-right"></i>
                     Let's Connect <span></span>
                   </Link>

@@ -4,7 +4,7 @@ import './FetchMediumArticles.css'; // Ensure this file is located correctly
 
 const FetchMediumArticles = () => {
   const [articles, setArticles] = useState([]);
-  const [showAnimation, setShowAnimation] = useState(true); // State to control the visibility of the animation
+  const [showAnimation, setShowAnimation] = useState(false); // State to control the visibility of the animation
 
   useEffect(() => {
     // Fetch articles from the RSS feed

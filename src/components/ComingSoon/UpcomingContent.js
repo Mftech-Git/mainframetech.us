@@ -1,10 +1,15 @@
 import React from "react";
+import starIcon from "../../images/star-icon.png";
 import './UpcomingFeatures.css'; // Make sure to create this CSS file
 
 const UpcomingFeatures = () => {
 return (
-<section className="upcoming-features">
-  <h2>What's Next for Mainframe Tech</h2>
+ <> 
+  <div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={starIcon} alt="star icon" style={{ marginBottom: '10px' }} />
+  </div>
+<section className="upcoming-feature  ptb-100 bg-fafafb">  
+<div className="container">
   <div className="feature-container">
 
     {/* Repeated FeatureItem components for each feature */}
@@ -32,9 +37,10 @@ return (
 
 
 
-
+</div>
   </div>
 </section>
+</>
 );
 };
 
