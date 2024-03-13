@@ -101,10 +101,10 @@ const Footer = () => {
                   <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link to="/services">Documentation Hub</Link>
+                  <Link to="/coming-soon">Documentation Hub</Link>
                 </li>
                 <li>
-                  <Link to="/FAQ">Frequently Asked Questions</Link>
+                  <Link to="/Resources/Documentation/FAQ">Frequently Asked Questions</Link>
                 </li>
               </ul>
             </div>
